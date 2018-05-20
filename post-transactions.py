@@ -21,6 +21,7 @@ monzoClientAuthCode = ''
 #    client_secret=monzoClientSecret,
 #    auth_code=monzoClientAuthCode,
 # )
+# exit(0)
 
 # Instantiate Monzo API client normally, using tokens from ~/.pymonzo-token generated previously
 monzo = MonzoAPI()
